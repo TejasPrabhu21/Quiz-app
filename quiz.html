@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/quiz.css">
+    <title>QUIZ APP </title>
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+            <div class="hud">
+                <div class="hud-item">
+                    <p class="hud-prefix" id="qno">Question No:</p>
+                    <p class="hud-text">1</p>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix" >Score:</p>
+                    <p class="hud-text" id="score">0</p>
+                </div>
+            </div>
+            <hr>
+            <div id="question"><p class="question">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolores!z</p></div>
+            <div class="option-container">
+                <!-- <p class="option-prefix">A.</p> -->
+                <input type="radio" class="option" name="option" value="a" id="option1">
+                <label for="option1" class="option-label">option1</label>
+            </div>
+            <div class="option-container">
+                <!-- <p class="option-prefix">B.</p> -->
+                <!-- <p class="option" data-number="2">Option 2</p> -->
+                <input type="radio" class="option" name="option" value="b" id="option2">
+                <label for="option2" class="option-label">option2</label>
+            </div>
+            <div class="option-container">
+                <!-- <p class="option-prefix">C.</p> -->
+                <!-- <p class="option" data-number="3">Option 3</p> -->
+                <input type="radio" class="option" name="option" value="c" id="option3">
+                <label for="option3" class="option-label">option3</label>
+            </div>
+            <div class="option-container">
+                <!-- <p class="option-prefix">D.</p> -->
+                <!-- <p class="option" data-number="4">Option 4</p> -->
+                <input type="radio" class="option" name="option" value="d" id="option4">
+                <label for="option4" class="option-label">option4</label>
+            </div>
+            <button type="submit" class="submit" >Submit</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
